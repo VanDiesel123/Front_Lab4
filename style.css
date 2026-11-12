@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    line-height: 1.5;
+}
+
+#element6,
+.element7 {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+#element6.active {
+    background-color: #058f8f;
+    color: white;
+}
+
+.element7.active {
+    background-color: #8f0505;
+    color: white;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.photo-link {
+    display: block;
+}
+
+.city-photo {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.controls button {
+    padding: 10px 15px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    border: 1px solid #555;
+    border-radius: 5px;
+
+    background-color: #e5e5e5;
+    color: black;
+
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #cccccc;
+}
